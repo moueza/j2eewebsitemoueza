@@ -1,1 +1,1 @@
-web : java $JAVA_OPTS -cp target/Java.Heroku.jar com.wilfine.server.Publisher $PORT
+web : java -jar target/j2eewebsitemouezaHeroku.war
